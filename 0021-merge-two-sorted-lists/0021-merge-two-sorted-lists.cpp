@@ -11,42 +11,45 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        if (list1 == list2) return list1;
+        if (list1 == nullptr && list2 == nullptr) return nullptr;
         if (list1 == nullptr) return list2;
         if (list2 == nullptr) return list1;
-        ListNode* ptr1, *ptr2, *ptr3, *sortedHead;
-        ptr1 = list1;
-        ptr2 = list2;
-        
-        if (ptr1->val < ptr2->val) {
-            sortedHead = ptr1;
-            ptr1 = ptr1->next;
-        } else {
-            sortedHead = ptr2;
-            ptr2 = ptr2->next;
-        }
-        ptr3 = sortedHead;
-        while(ptr1 != nullptr || ptr2 != nullptr) {
-            cout << ptr3->val << endl;
-            if (ptr1 == nullptr) {
-                ptr3->next = ptr2;
-                ptr3 = ptr2;
-                ptr2 = ptr2->next;
-            } else if (ptr2 == nullptr) {
-                ptr3->next = ptr1;
-                ptr3 = ptr1;
-                ptr1 = ptr1->next;
-            } else {
-                if (ptr1->val < ptr2->val) {
-                    ptr3->next = ptr1;
-                    ptr3 = ptr1;
-                    ptr1 = ptr1->next;
+        ListNode* sortedHead = nullptr;
+        ListNode* sortedPtr = nullptr;
+        ListNode* ptr1 = list1;
+        ListNode* ptr2 = list2;
+        while(ptr1 != nullptr && ptr2 != nullptr) {
+            if (ptr1->val < ptr2->val) {
+                if (sortedPtr == nullptr) {
+                    sortedPtr = ptr1;
+                    sortedHead = sortedPtr;
                 } else {
-                    ptr3->next = ptr2;
-                    ptr3 = ptr2;
-                    ptr2 = ptr2->next;
+                    sortedPtr->next = ptr1;
+                    sortedPtr = sortedPtr->next;
                 }
+                
+                ptr1 = ptr1->next;
+                sortedPtr->next = nullptr;
+            } else {
+                if (sortedPtr == nullptr) {
+                    sortedPtr = ptr2;
+                    sortedHead = sortedPtr;
+                } else {
+                    sortedPtr->next = ptr2;
+                    sortedPtr = sortedPtr->next;
+                }
+                ptr2 = ptr2->next;
+                sortedPtr->next = nullptr;
+
             }
+        }
+        
+        if(ptr1 != nullptr) {
+            sortedPtr->next = ptr1;
+        }
+        
+        if(ptr2 != nullptr) {
+            sortedPtr->next = ptr2;
         }
         return sortedHead;
     }
