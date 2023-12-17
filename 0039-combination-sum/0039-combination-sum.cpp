@@ -13,7 +13,6 @@ public:
         solve(idx+1, candidates, combination, currSum);
         combination.push_back(candidates[idx]);
         solve(idx, candidates, combination, currSum + candidates[idx]);
-        solve(idx +1, candidates, combination, currSum + candidates[idx]);
         combination.pop_back();
         return;
     }
