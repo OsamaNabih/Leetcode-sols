@@ -11,11 +11,7 @@ public:
         }
         
         for(auto it = mp.begin(); it != mp.end(); it++) {
-            vector<string> group;
-            for(string s : it->second) {
-                group.push_back(s);
-            }
-            ans.push_back(group);
+            ans.push_back(it->second);
         }
         return ans;
     }
