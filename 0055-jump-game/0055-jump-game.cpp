@@ -12,6 +12,9 @@ public:
                 break;
             }
             ans = ans || solve(nums, idx + i);
+            if (ans) {
+                break;
+            }
         }
         dp[idx] = ans ? 1 : 0;
         return ans;
