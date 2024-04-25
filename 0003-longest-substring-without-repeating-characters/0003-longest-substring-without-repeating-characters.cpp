@@ -1,30 +1,30 @@
-#include <algorithm>
 class Solution {
 public:
-    unordered_map<char, int> chars;
-    unordered_map<char, int> lastIdx;
     int lengthOfLongestSubstring(string s) {
-        int start = 0;
-        
-        int unique = 0;
-        int max_unique = 0;
-        for(int i = 0; i < s.size(); i++) {
-            chars[s[i]]++;
-            if (chars[s[i]] > 1) { // Already saw char
-                
-                while (start <= lastIdx[s[i]])  {
-                    chars[s[start]]--;
-                    if (chars[s[start]] == 0) {
-                        unique--;
-                    }
-                    start++;
+        unordered_map<char, int> mp;
+        int N = s.size();
+        if (N == 0) return 0;
+        if (N == 1) return 1;
+        int L = 0;
+        int R = 1;
+        mp[s[0]]++;
+        int ans = 1;
+        while(R < N) {
+            char c = s[R];
+            if (mp[c] > 0) {
+                while(s[L] != c) {
+                    mp[s[L]]--;
+                    L++;
                 }
-            } else { // First time seeing char
-                unique++;
-            }
-            lastIdx[s[i]] = i;
-            max_unique = max(max_unique, unique);
+                mp[c]--;
+                L++;
+            } 
+            mp[c]++;
+            cout << mp[c] << endl << endl;
+
+            ans = max(ans, R - L + 1);
+            R++;
         }
-        return max_unique;
+        return ans;
     }
 };
