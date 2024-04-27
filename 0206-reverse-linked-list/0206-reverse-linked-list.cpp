@@ -10,7 +10,6 @@
  */
 class Solution {
 public:
-    ListNode* last;
     int N;
     int curr;
     ListNode* solve(ListNode* ptr, ListNode* oldRoot) {
