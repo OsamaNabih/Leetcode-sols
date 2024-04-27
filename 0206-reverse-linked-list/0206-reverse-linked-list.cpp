@@ -10,29 +10,32 @@
  */
 class Solution {
 public:
-    int size = 0;
-    ListNode* solve(ListNode* ptr, ListNode* replacerPtr, int idx) {
-        if (ptr == nullptr){
-            return replacerPtr;
+    ListNode* last;
+    int N;
+    int curr;
+    ListNode* solve(ListNode* ptr, ListNode* oldRoot) {
+        if (ptr == nullptr) return nullptr;
+        N++;
+        curr++;
+        cout << ptr->val << " " << oldRoot->val << endl;
+        if (ptr->next != nullptr) {
+            ListNode* nextNode = solve(ptr->next, oldRoot);
+            oldRoot = nextNode;
         }
-        ListNode* returnedPtr = solve(ptr->next, replacerPtr, idx + 1);
-        if (idx < size/2) return nullptr;
+        cout << ptr->val << " counts: " << curr << " " << N << endl;
+        if (curr == ((N+1) / 2)) {
+            return oldRoot->next;
+        }
+        cout << "Swapping " << ptr->val << " " << oldRoot->val;
         int temp = ptr->val;
-        ptr->val = returnedPtr->val;
-        returnedPtr->val = temp;
-        return returnedPtr->next;
+        ptr->val = oldRoot->val;
+        oldRoot->val = temp;
+        curr--;
+        return oldRoot->next;
     }
-    
     ListNode* reverseList(ListNode* head) {
-        if (head == nullptr || head->next == nullptr) return head;
-        ListNode* ptr = head;
-        while (ptr != nullptr) {
-            size++;
-            ptr = ptr->next;
-        }
-        ptr = head;
-        ListNode* ptr2 = head;
-        solve(ptr, ptr2, 0);
+        ListNode* temp = head;
+        solve(head, head);
         return head;
     }
 };
