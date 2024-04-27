@@ -1,93 +1,62 @@
 class Solution {
 public:
-    unordered_map<int, int> ans;
-    bool isMatch(unordered_map<char, int> &mp1, unordered_map<char,int> &mp2) {
-        for(auto& it: mp2) {
-            if (!isKeyInMap(mp1, it.first) || mp1[it.first] < it.second) return false;
-        }
-        return true;
+    unordered_map<char, int> targetFreq;
+    unordered_map<char, int> windowFreq;
+    int currKept;
+    int longest;
+    int longestStart, longestEnd;
+
+    bool keepChar(char c) {
+        return targetFreq[c] != 0 && windowFreq[c] <= targetFreq[c];
     }
-    
-    void printMap(unordered_map<char, int> &mp) {
-        for(auto& it: mp) {
-            cout << it.first << " " << it.second << endl;
-        }
-        cout << endl;
+
+    bool takeChar(char c) {
+        return targetFreq[c] != 0;
     }
-    
-     void printMap(unordered_map<int, int> &mp) {
-        for(auto& it: mp) {
-            cout << it.first << " " << it.second << endl;
-        }
-        cout << endl;
-    }
-    
-    bool isKeyInMap(unordered_map<char, int> &mp, char key) {
-        return mp.find(key) != mp.end();
-    }
-    
-    void trimWindow(string &s, int &window_start, int curr_idx, unordered_map<char, int> &window_freq, unordered_map<char, int> &target_freq) {
-        if (curr_idx == window_start) return;
-        char currChar = s[window_start];
-        while(window_start < curr_idx && (!isKeyInMap(target_freq, currChar) || window_freq[currChar] > target_freq[currChar])) {
-            window_freq[currChar]--;
-            window_start++;
-            currChar = s[window_start];
+
+    void evaluateSolution(int L, int R) {
+        if (R-L+1 < longest) {
+            // cout << "Better solution found at (" << L << "," << R << ")\n";
+            longest = R-L+1;
+            longestStart = L;
+            longestEnd = R;
         }
     }
-    
+
     string minWindow(string s, string t) {
-        if (t.length() > s.length()) return "";
-        unordered_map<char, int> window_char_freq;
-        unordered_map<char, int> target_char_freq;
-        for(char c : t) {
-            target_char_freq[c]++;
+        longest = INT_MAX;
+        for(auto c : t) {
+            targetFreq[c]++;
         }
-        // cout << "target:\n";
-        // printMap(target_char_freq);
-        int i = 0;
-        int currLen = 0;
-        while(i < s.length() && !isKeyInMap(target_char_freq, s[i])) {
-            i++;
-        }
+        
 
-        int window_start = i;
-        char currChar;
+        int L = 0;
+        int R = 0;
+        char curr;
         
-        while(i < s.length()) {
-            // cout << "i: " << i << " Window: " << window_start << endl;
-            // printMap(window_char_freq);
-            
-            currChar = s[i];
-            window_char_freq[currChar]++;
-            
-            if (isKeyInMap(target_char_freq, currChar) && window_char_freq[currChar] > target_char_freq[currChar]) {
-                trimWindow(s, window_start, i, window_char_freq, target_char_freq);
+        while(R < s.size()) {
+            // cout << L << " " << R << endl;
+            curr = s[R];
+            if (takeChar(curr)) {
+                if (windowFreq[curr] < targetFreq[curr]) currKept++; 
+                windowFreq[curr]++;
+                   
+                if (currKept == t.size()) { // All chars in t are included
+                    evaluateSolution(L, R);
+                }
+                while(!keepChar(s[L])) {
+                    if (takeChar(s[L])) {
+                        windowFreq[s[L]]--;
+                    }
+                    L++;
+                }
+                if (currKept == t.size()) { // All chars in t are included
+                    evaluateSolution(L, R);
+                }
             }
-             
-            // cout << "After trim\nWindow: " << window_start << endl;
-            // printMap(window_char_freq);
-            currLen = i - window_start + 1;
-            
-            if (currLen >= t.length() && isMatch(window_char_freq, target_char_freq)) {
-                if (currLen == t.length()) return s.substr(window_start, currLen);
-                ans[currLen] = window_start;
-            }
-        
-            i++;
+            R++;
         }
-       
-        
-        if (ans.empty()) return "";
-        int minLen = INT_MAX;
-        // cout << "ans:\n";
-        // printMap(ans);
-        for (auto& it : ans) {
-            if (it.first < minLen) {
-                minLen = it.first;
-            }
-        }
-
-        return s.substr(ans[minLen], minLen);
+        if (longest == INT_MAX) return "";
+        return s.substr(longestStart, longestEnd - longestStart + 1);
     }
 };
