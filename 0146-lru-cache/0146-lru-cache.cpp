@@ -37,6 +37,8 @@ public:
         // Make new entry with current time
         mp[now] = mp[time];
         
+        mp.erase(mp.find(time));
+        
         // Update time in umap
         umap[key].second = now;
         now++;
@@ -63,7 +65,7 @@ public:
         // cout << "Removal and insert new\n";
         // Key not in map, need to remove oldest
 
-        while(mp.find(oldestTime) == mp.end() || umap[mp.find(oldestTime)->second].second != oldestTime) {
+        while(mp.find(oldestTime) == mp.end()) {
             oldestTime++;
         }
         int removedKey = mp[oldestTime];
