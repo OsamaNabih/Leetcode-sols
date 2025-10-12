@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0013-roman-to-integer) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2202-sum-of-k-mirror-numbers) |
 ## Enumeration
 |  |
@@ -19,4 +20,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2320-find-all-k-distant-indices-in-an-array) |
+## Hash Table
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0013-roman-to-integer) |
+## String
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
