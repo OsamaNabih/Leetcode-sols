@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0013-roman-to-integer) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2202-sum-of-k-mirror-numbers) |
 ## Enumeration
@@ -26,12 +27,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0013-roman-to-integer) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0013-roman-to-integer) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 ## Binary Search
