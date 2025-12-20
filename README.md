@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0981-delete-columns-to-make-sorted](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0981-delete-columns-to-make-sorted) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [2233-number-of-smooth-descent-periods-of-a-stock](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2233-number-of-smooth-descent-periods-of-a-stock) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
@@ -34,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0027-remove-element](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0027-remove-element) |
 | [0941-sort-array-by-parity](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0941-sort-array-by-parity) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Hash Table
@@ -81,4 +83,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+## Simulation
+|  |
+| ------- |
+| [2271-rearrange-array-elements-by-sign](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2271-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
