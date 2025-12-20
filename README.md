@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0027-remove-element) |
+| [0125-valid-palindrome](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0125-valid-palindrome) |
 | [0941-sort-array-by-parity](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0941-sort-array-by-parity) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2320-find-all-k-distant-indices-in-an-array) |
@@ -52,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0012-integer-to-roman](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0013-roman-to-integer) |
+| [0125-valid-palindrome](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0125-valid-palindrome) |
 | [0981-delete-columns-to-make-sorted](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0981-delete-columns-to-make-sorted) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 ## Binary Search
