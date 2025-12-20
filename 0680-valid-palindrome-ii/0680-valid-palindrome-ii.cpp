@@ -10,6 +10,21 @@ public:
         return true;
     }
     bool validPalindrome(string s) {
+        // Sol 1
+        int L = 0, R = s.size() - 1;
+        int isPalindrome = true;
+
+        while (L <= R) {
+            if (s[L] != s[R]) {
+                return normalPalindrome(s, L, R-1) || normalPalindrome(s, L+1, R);
+            }
+            L++;
+            R--;
+        }
+
+        return isPalindrome;
+        // Sol 2
+        /*
         if (s.size() == 2) return true;
         if (s.size() == 3) return s[0] == s[1] || s[0] == s[2] || s[1] == s[2];
         int L = 0, R = s.size() - 1;
@@ -40,5 +55,6 @@ public:
             R--;
         }
         return isPalindrome;
+        */
     }
 };
