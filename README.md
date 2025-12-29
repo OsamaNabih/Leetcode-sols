@@ -55,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0036-valid-sudoku) |
+| [0757-pyramid-transition-matrix](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0757-pyramid-transition-matrix) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
@@ -65,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0013-roman-to-integer) |
 | [0125-valid-palindrome](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0125-valid-palindrome) |
 | [0680-valid-palindrome-ii](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0680-valid-palindrome-ii) |
+| [0757-pyramid-transition-matrix](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0757-pyramid-transition-matrix) |
 | [0981-delete-columns-to-make-sorted](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0981-delete-columns-to-make-sorted) |
 | [0992-delete-columns-to-make-sorted-ii](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0992-delete-columns-to-make-sorted-ii) |
 | [1000-delete-columns-to-make-sorted-iii](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1000-delete-columns-to-make-sorted-iii) |
@@ -130,4 +132,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2164-two-best-non-overlapping-events](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2164-two-best-non-overlapping-events) |
+## Backtracking
+|  |
+| ------- |
+| [0757-pyramid-transition-matrix](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0757-pyramid-transition-matrix) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0757-pyramid-transition-matrix](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0757-pyramid-transition-matrix) |
 <!---LeetCode Topics End-->
