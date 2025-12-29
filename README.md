@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0941-sort-array-by-parity](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0941-sort-array-by-parity) |
 | [0981-delete-columns-to-make-sorted](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0981-delete-columns-to-make-sorted) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [2233-number-of-smooth-descent-periods-of-a-stock](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2233-number-of-smooth-descent-periods-of-a-stock) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2320-find-all-k-distant-indices-in-an-array) |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Dynamic Programming
 |  |
@@ -83,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0036-valid-sudoku) |
+| [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 ## Greedy
 |  |
 | ------- |
