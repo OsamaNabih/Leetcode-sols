@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0013-roman-to-integer) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2233-number-of-smooth-descent-periods-of-a-stock](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2233-number-of-smooth-descent-periods-of-a-stock) |
+| [2251-number-of-ways-to-divide-a-long-corridor](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2251-number-of-ways-to-divide-a-long-corridor) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 ## Enumeration
 |  |
@@ -68,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0992-delete-columns-to-make-sorted-ii](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0992-delete-columns-to-make-sorted-ii) |
 | [1000-delete-columns-to-make-sorted-iii](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1000-delete-columns-to-make-sorted-iii) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [2251-number-of-ways-to-divide-a-long-corridor](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2251-number-of-ways-to-divide-a-long-corridor) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2576-minimum-penalty-for-a-shop) |
 ## Binary Search
 |  |
@@ -81,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1000-delete-columns-to-make-sorted-iii](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1000-delete-columns-to-make-sorted-iii) |
 | [2164-two-best-non-overlapping-events](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2164-two-best-non-overlapping-events) |
 | [2233-number-of-smooth-descent-periods-of-a-stock](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2233-number-of-smooth-descent-periods-of-a-stock) |
+| [2251-number-of-ways-to-divide-a-long-corridor](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2251-number-of-ways-to-divide-a-long-corridor) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3892-best-time-to-buy-and-sell-stock-v](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3892-best-time-to-buy-and-sell-stock-v) |
 ## Sorting
