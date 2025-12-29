@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0643-maximum-average-subarray-i](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0643-maximum-average-subarray-i) |
 | [0941-sort-array-by-parity](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0941-sort-array-by-parity) |
 | [0981-delete-columns-to-make-sorted](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0981-delete-columns-to-make-sorted) |
+| [1000-delete-columns-to-make-sorted-iii](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1000-delete-columns-to-make-sorted-iii) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [2164-two-best-non-overlapping-events](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2164-two-best-non-overlapping-events) |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0125-valid-palindrome](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0125-valid-palindrome) |
 | [0680-valid-palindrome-ii](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0680-valid-palindrome-ii) |
 | [0981-delete-columns-to-make-sorted](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0981-delete-columns-to-make-sorted) |
+| [1000-delete-columns-to-make-sorted-iii](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1000-delete-columns-to-make-sorted-iii) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2576-minimum-penalty-for-a-shop) |
 ## Binary Search
@@ -73,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [1000-delete-columns-to-make-sorted-iii](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1000-delete-columns-to-make-sorted-iii) |
 | [2164-two-best-non-overlapping-events](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2164-two-best-non-overlapping-events) |
 | [2233-number-of-smooth-descent-periods-of-a-stock](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2233-number-of-smooth-descent-periods-of-a-stock) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
