@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2271-rearrange-array-elements-by-sign](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
+| [3334-apple-redistribution-into-boxes](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3334-apple-redistribution-into-boxes) |
 | [3351-maximize-happiness-of-selected-children](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3351-maximize-happiness-of-selected-children) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
@@ -77,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0941-sort-array-by-parity](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0941-sort-array-by-parity) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [3334-apple-redistribution-into-boxes](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3334-apple-redistribution-into-boxes) |
 | [3351-maximize-happiness-of-selected-children](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3351-maximize-happiness-of-selected-children) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
@@ -94,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0680-valid-palindrome-ii](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0680-valid-palindrome-ii) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
+| [3334-apple-redistribution-into-boxes](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3334-apple-redistribution-into-boxes) |
 | [3351-maximize-happiness-of-selected-children](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3351-maximize-happiness-of-selected-children) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 ## Simulation
