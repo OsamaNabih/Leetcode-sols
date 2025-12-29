@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0981-delete-columns-to-make-sorted](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0981-delete-columns-to-make-sorted) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
+| [2164-two-best-non-overlapping-events](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2164-two-best-non-overlapping-events) |
 | [2233-number-of-smooth-descent-periods-of-a-stock](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2233-number-of-smooth-descent-periods-of-a-stock) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2320-find-all-k-distant-indices-in-an-array) |
@@ -67,10 +68,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
+| [2164-two-best-non-overlapping-events](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2164-two-best-non-overlapping-events) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [2164-two-best-non-overlapping-events](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2164-two-best-non-overlapping-events) |
 | [2233-number-of-smooth-descent-periods-of-a-stock](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2233-number-of-smooth-descent-periods-of-a-stock) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Sorting
@@ -78,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0941-sort-array-by-parity](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0941-sort-array-by-parity) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [2164-two-best-non-overlapping-events](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2164-two-best-non-overlapping-events) |
 | [3334-apple-redistribution-into-boxes](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3334-apple-redistribution-into-boxes) |
 | [3351-maximize-happiness-of-selected-children](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3351-maximize-happiness-of-selected-children) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
@@ -111,4 +115,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2576-minimum-penalty-for-a-shop](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2576-minimum-penalty-for-a-shop) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2164-two-best-non-overlapping-events](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2164-two-best-non-overlapping-events) |
 <!---LeetCode Topics End-->
