@@ -85,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1000-delete-columns-to-make-sorted-iii](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1000-delete-columns-to-make-sorted-iii) |
+| [1527-number-of-ways-to-paint-n-3-grid](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1527-number-of-ways-to-paint-n-3-grid) |
 | [2164-two-best-non-overlapping-events](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2164-two-best-non-overlapping-events) |
 | [2233-number-of-smooth-descent-periods-of-a-stock](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2233-number-of-smooth-descent-periods-of-a-stock) |
 | [2251-number-of-ways-to-divide-a-long-corridor](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2251-number-of-ways-to-divide-a-long-corridor) |
