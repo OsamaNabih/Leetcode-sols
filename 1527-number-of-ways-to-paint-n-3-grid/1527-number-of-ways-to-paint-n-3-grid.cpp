@@ -53,6 +53,7 @@ public:
         return dp[n][prev] = ans;
     }
     int numOfWays(int n) {
+        // Top-down DP
         memset(dp, -1, sizeof(dp));
         dp[1][0] = 12;
         for (auto it  = allowed.begin(); it != allowed.end(); it++) {
@@ -62,6 +63,26 @@ public:
         int ans = 0;
         for(int i = 1; i <= 12; i++) {
             ans = (ans + (1LL*solve(n - 1, i))) % mod;
+        }
+        // return ans;
+
+        // Bottom-up DP
+        vector<int> last(12, 1);
+        vector<int> curr(12, 0);
+        for(int i = 1; i < n; i++) {
+            for(int j = 0; j < 12; j++) {
+                auto vars = allowed[j+1];
+                curr[j] = 0;
+                for(int k = 0; k < vars.size(); k++) {
+                    curr[j] = (1LL*curr[j] + last[vars[k] - 1]) % mod;
+                }
+            }
+            last = curr;
+        }
+
+        ans = 0;
+        for(int i = 0; i < 12; i++) {
+            ans = (ans + (1LL*last[i])) % mod;
         }
         return ans;
     }
