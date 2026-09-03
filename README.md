@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3651-transformed-array](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3651-transformed-array) |
 | [3892-best-time-to-buy-and-sell-stock-v](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3892-best-time-to-buy-and-sell-stock-v) |
 ## Two Pointers
 |  |
@@ -123,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3651-transformed-array](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3651-transformed-array) |
 ## Sliding Window
 |  |
 | ------- |
