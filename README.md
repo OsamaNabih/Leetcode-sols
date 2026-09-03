@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3651-transformed-array](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3651-transformed-array) |
 | [3892-best-time-to-buy-and-sell-stock-v](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3892-best-time-to-buy-and-sell-stock-v) |
+| [4045-longest-balanced-subarray-i](https://github.com/OsamaNabih/Leetcode-sols/tree/master/4045-longest-balanced-subarray-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [4045-longest-balanced-subarray-i](https://github.com/OsamaNabih/Leetcode-sols/tree/master/4045-longest-balanced-subarray-i) |
 ## String
 |  |
 | ------- |
@@ -133,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2576-minimum-penalty-for-a-shop](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2576-minimum-penalty-for-a-shop) |
+| [4045-longest-balanced-subarray-i](https://github.com/OsamaNabih/Leetcode-sols/tree/master/4045-longest-balanced-subarray-i) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -145,4 +148,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0757-pyramid-transition-matrix](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0757-pyramid-transition-matrix) |
+## Divide and Conquer
+|  |
+| ------- |
+| [4045-longest-balanced-subarray-i](https://github.com/OsamaNabih/Leetcode-sols/tree/master/4045-longest-balanced-subarray-i) |
+## Segment Tree
+|  |
+| ------- |
+| [4045-longest-balanced-subarray-i](https://github.com/OsamaNabih/Leetcode-sols/tree/master/4045-longest-balanced-subarray-i) |
 <!---LeetCode Topics End-->
