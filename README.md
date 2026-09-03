@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2202-sum-of-k-mirror-numbers](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2202-sum-of-k-mirror-numbers) |
+| [4055-longest-balanced-substring-i](https://github.com/OsamaNabih/Leetcode-sols/tree/master/4055-longest-balanced-substring-i) |
 ## Array
 |  |
 | ------- |
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [4045-longest-balanced-subarray-i](https://github.com/OsamaNabih/Leetcode-sols/tree/master/4045-longest-balanced-subarray-i) |
+| [4055-longest-balanced-substring-i](https://github.com/OsamaNabih/Leetcode-sols/tree/master/4055-longest-balanced-substring-i) |
 ## String
 |  |
 | ------- |
@@ -78,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [2251-number-of-ways-to-divide-a-long-corridor](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2251-number-of-ways-to-divide-a-long-corridor) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2576-minimum-penalty-for-a-shop) |
+| [4055-longest-balanced-substring-i](https://github.com/OsamaNabih/Leetcode-sols/tree/master/4055-longest-balanced-substring-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -108,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/OsamaNabih/Leetcode-sols/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [4055-longest-balanced-substring-i](https://github.com/OsamaNabih/Leetcode-sols/tree/master/4055-longest-balanced-substring-i) |
 ## Matrix
 |  |
 | ------- |
