@@ -78,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0992-delete-columns-to-make-sorted-ii](https://github.com/OsamaNabih/Leetcode-sols/tree/master/0992-delete-columns-to-make-sorted-ii) |
 | [1000-delete-columns-to-make-sorted-iii](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1000-delete-columns-to-make-sorted-iii) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1756-minimum-deletions-to-make-string-balanced](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2251-number-of-ways-to-divide-a-long-corridor](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2251-number-of-ways-to-divide-a-long-corridor) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2576-minimum-penalty-for-a-shop) |
 | [4055-longest-balanced-substring-i](https://github.com/OsamaNabih/Leetcode-sols/tree/master/4055-longest-balanced-substring-i) |
@@ -92,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1000-delete-columns-to-make-sorted-iii](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1000-delete-columns-to-make-sorted-iii) |
 | [1527-number-of-ways-to-paint-n-3-grid](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1527-number-of-ways-to-paint-n-3-grid) |
+| [1756-minimum-deletions-to-make-string-balanced](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2164-two-best-non-overlapping-events](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2164-two-best-non-overlapping-events) |
 | [2233-number-of-smooth-descent-periods-of-a-stock](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2233-number-of-smooth-descent-periods-of-a-stock) |
 | [2251-number-of-ways-to-divide-a-long-corridor](https://github.com/OsamaNabih/Leetcode-sols/tree/master/2251-number-of-ways-to-divide-a-long-corridor) |
@@ -160,4 +162,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [4045-longest-balanced-subarray-i](https://github.com/OsamaNabih/Leetcode-sols/tree/master/4045-longest-balanced-subarray-i) |
+## Stack
+|  |
+| ------- |
+| [1756-minimum-deletions-to-make-string-balanced](https://github.com/OsamaNabih/Leetcode-sols/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 <!---LeetCode Topics End-->
